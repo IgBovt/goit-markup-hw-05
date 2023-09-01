@@ -590,3 +590,25 @@ display: flex;
 .footer-form-button:focus {
     background-color: #404BBF;
 }
+/* MODAL WINDOW */
+/* MODAL WINDOW */
+
+.modal-window {
+background-color: #fff;
+max-width: 408px;
+}
+.modal-button-close {
+    width: 24px;
+    height: 24px;
+    background-color: #E7E9FC;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.modal-button-close:hover,
+.modal-button-close:focus {
+    background-color: #404BBF;
+}
+.modal-button-close:active {
+    background-color: #404BBF;
+}
