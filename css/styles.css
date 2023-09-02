@@ -540,9 +540,7 @@ a {
 }
 .footer-form {
 display: flex;
-}
-.footer-mail-label {
-        margin-right: 24px;
+gap: 24px;
 }
 .footer-mail-input {
     background-color: transparent;
@@ -553,13 +551,14 @@ display: flex;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.48px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 8px 16px;
     margin-right: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-mail-input::placeholder {
     color: #FFF;
@@ -568,11 +567,11 @@ display: flex;
 }
 .footer-form-button {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color:  #FFF;
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif ;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
@@ -590,6 +589,9 @@ display: flex;
 .footer-form-button:hover,
 .footer-form-button:focus {
     background-color: #404BBF;
+}
+.footer-form-icon {
+    margin-left: 16px;
 }
 /* MODAL WINDOW */
 /* MODAL WINDOW */
